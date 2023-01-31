@@ -1,0 +1,462 @@
+.reservation-header {
+  background-image: url(/assets/images/page-title-img1.jpg);
+  width: cover;
+  height: auto;
+}
+
+::ng-deep {
+  .p-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    background-color: #c49f66 !important;
+    border-radius: 11px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .p-scrolltop .p-scrolltop-icon {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    font-size: 17px;
+    color: #f8f9fa;
+  }
+
+  .p-link:focus {
+    box-shadow: none;
+  }
+}
+
+// ----------------------------------------------------------------------
+.page-title-wrap-inner {
+  color: #ffffff;
+  background-image: url(https://elementor.zozothemes.com/restaurt/wp-content/uploads/sites/58/2022/10/page-title-img1-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 240px;
+  position: relative;
+  padding-bottom: 113px;
+}
+.page-title-overlay {
+  background: rgba(0, 0, 0, 0.68);
+}
+.container {
+  max-width: 1480px !important;
+}
+
+.page-title-overlay {
+  height: 449px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.page-title-inner {
+  display: table;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.page-title-inner .pull-left {
+  max-width: 50%;
+}
+
+.page-title-inner > div {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  // max-width: 50%;
+}
+h1 {
+  color: #ffffff;
+  font-family: Crimson Text;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 64px;
+}
+
+.breadcrumb {
+  text-decoration: none;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block;
+  font-size: 16px;
+  background: unset;
+}
+.page-title-inner > div > .breadcrumb > *::after {
+  padding: 3px 3.5px 3.5px;
+  font-size: 11px;
+  vertical-align: middle;
+}
+h1.page-title:before {
+  background-image: -webkit-radial-gradient(
+    right,
+    circle,
+    transparent 0,
+    #c59d5f 88%
+  );
+}
+
+h1.page-title:before {
+  content: "";
+  position: absolute;
+  border: 0;
+  width: 85px;
+  height: 4px;
+  z-index: 1;
+  margin-left: 0;
+  left: 0;
+  top: -28px;
+}
+
+.breadcrumb > a {
+  text-decoration: none;
+  color: white;
+}
+
+.breadcrumb > a::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  margin: 0 12px 0 17px;
+  transform: rotate(45deg);
+  background: #c49f66;
+  display: inline-block;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+}
+.page-title-inner > div > .breadcrumb > * {
+  word-break: break-all;
+}
+
+.breadcrumb > span.current {
+  color: #fff;
+}
+// ------------------------------------------RESERVATION FORM-------------------------
+.reservation-form {
+  padding-top: 100px;
+  background-color: #0e1317;
+  background-image: url(https://elementor.zozothemes.com/restaurt/wp-content/uploads/sites/58/2022/09/border-srtke-1.png);
+  background-position: 705px -18px;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+}
+.calender-text {
+  font-family: Crimson Text;
+  text-align: center;
+  color: #c49f66;
+  font-weight: 700;
+}
+.temp-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calender-box {
+  padding: 45px 40px 42px;
+  width: 570px;
+  height: 566px;
+  background-color: #151920;
+}
+.calender-division {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+::ng-deep {
+  
+  .p-datepicker table td > span.p-highlight {
+    color: #1d4ed8;
+    background: #808791;
+  }
+  .p-datepicker table td > span {
+    width: 2.5rem;
+    // background-color:#0e1317  !important;
+    height: 2.5rem;
+    color: white !important;
+    border-radius: 5%;
+    transition: box-shadow 0.2s;
+    border: 1px solid transparent;
+  }
+  thead,
+  tr {
+    text-align: center;
+  }
+  .p-calendar .p-datepicker {
+    border: none;
+  }
+  .p-datepicker-inline {
+    background-color: transparent !important;
+    color: white;
+  }
+
+  .p-datepicker .p-datepicker-header {
+    border: none;
+    background-color: transparent !important;
+    color: white;
+  }
+
+}
+// -------------------FORM FIELDS-----------------------------------------
+
+.Reservation-form-body{
+
+  ::ng-deep{
+    .p-element {
+      margin-left: none !important;
+    }
+  }
+}
+.reservationform-fields {
+  margin-top: 50px;
+  // margin: 40px;
+  // background-color: #808791;
+}
+.p-inputtext:enabled:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none !important;
+  border-color: #c49f66;
+}
+.p-inputtext:enabled:hover {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none !important;
+  border-color: #c49f66;
+}
+
+.text-name {
+  margin-bottom: 12px;
+  font-size: 20px;
+  background-color: transparent;
+  width: 85%;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-radius: 0px;
+  padding-left: 0px;
+  padding-bottom: 13px;
+}
+.phone-number {
+  width: 92% !important;
+}
+.dropdown-text {
+  margin-top: 10px;
+}
+.p-button {
+  border-radius: 0px;
+  background-color: #c49f66;
+  border-color: transparent;
+}
+.p-button:hover {
+  background-color: #151920;
+  border-color: transparent;
+}
+.button-form {
+  margin-top: 30px;
+}
+.linkbutton {
+  margin-left: 30px;
+  text-decoration: none;
+  // border: 2px solid #c49f66 ;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  padding: 0px;
+  font-size: 20px;
+  color: #c59d5f;
+}
+.Reservation-form-body{
+
+::ng-deep {
+ 
+  .p-inputtext {
+    color: #ffffff;
+  }
+  .p-inputtextarea-resizable {
+    overflow: hidden;
+    padding-left: 1px;
+    padding-top: 23px;
+    width: 92%;
+    max-height: 144px;
+    background-color: transparent;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    border-radius: 0px;
+    font-size: 20px;
+    resize: none;
+  }
+  .dropdown-persons .p-dropdown {
+    min-width: 727px;
+  }
+  .p-dropdown-panel .p-dropdown-items {
+    background-color: #151920;
+    font-size: 17px;
+    color: white !important;
+  }
+  .p-dropdown .p-dropdown-label.p-placeholder {
+    color: #6c757d;
+    font-size: 20px;
+    padding-left: 0px;
+  }
+  .p-dropdown {
+    padding-left: 0px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    display: inline-flex;
+    cursor: pointer;
+    background-color: transparent;
+    position: relative;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    border-radius: 0px;
+    width: 334px;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .p-dropdown:enabled:focus {
+    box-shadow: none;
+    border-color: #ffffff;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-radius: 0px;
+  }
+  .p-dropdown:not(.p-disabled):hover {
+    border-color: #c49f66;
+  }
+  .p-dropdown:not(.p-disabled).p-focus {
+    box-shadow: none;
+    border-color: #c49f66;
+  }
+
+  .p-dropdown:enabled:hover {
+    border-color: #ffffff;
+    border: none;
+  }
+}
+}
+::ng-deep {
+
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+
+    color: #ffffff;
+  }
+    .p-button:focus {
+      box-shadow: none;
+    }
+}
+
+
+// ---------------------------------------MEDIA QUERIES-------------------------------
+@media (max-width: 480px) {
+  .page-title-wrap-inner {
+    background-size: 106% 100% !important;
+  }
+  .reservation-form {
+    display: block !important;
+  }
+  ::ng-deep {
+    .p-dropdown {
+      width: 100% !important;
+    }
+    .dropdown-persons .p-dropdown {
+      min-width: 100% !important;
+    }
+  }
+  .inputemail {
+    display: block !important;
+  }
+  .startendtime {
+    display: block !important;
+  }
+  .calnder-box-col {
+    width: 100%;
+  }
+  .form-box-col {
+    width: 100%;
+  }
+  .reservationform-fields {
+    margin-top: 0px;
+    padding: 25px;
+  }
+  .temp-box {
+    display: block;
+  }
+  .text-name {
+    width: 100%;
+  }
+  .calender-box {
+    padding: 25px 28px 27px;
+    margin: 18px;
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    color: #ffffff;
+    font-family: Crimson Text;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .page-title-wrap-inner {
+    color: #ffffff;
+
+    background-repeat: no-repeat;
+    background-position: none;
+    background-size: cover;
+    padding-top: 89px !important;
+    padding-bottom: 48px;
+  }
+  .page-title-overlay {
+    height: 209px;
+  }
+  .reservation-form {
+    padding-top: 30px;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .phone-number {
+    width: 100% !important;
+  }
+  .calender-division {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .buttonsforms {
+    display: block !important;
+  }
+  .linkbutton {
+    padding-bottom: 6px;
+    margin-left: 0px;
+    border-bottom: 2px solid #c49f66;
+  }
+  .buttonbutton {
+    margin-bottom: 20px;
+  }
+  .p-inputtextarea-resizable {
+    width: 100%;
+  }
+}

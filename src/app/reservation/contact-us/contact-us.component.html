@@ -1,0 +1,177 @@
+<!-- <p-scrollTop></p-scrollTop> -->
+
+<!------------------------------------------------ HEADER TEXT ----------------------------------->
+<div class="page-title-wrap-inner" data-property="no-video">
+  <span class="page-title-overlay"></span>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-title-inner">
+          <div class="pull-left">
+            <h1 class="page-title">Contact Us</h1>
+            <div id="breadcrumb" class="breadcrumb">
+              <a href="#">Home</a>
+              <span class="current">Contact Us</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- -------------------------------------------Second Divison-------------------------------------------------- -->
+<div class="Reservationform-body">
+  <div class="d-flex reservation-form">
+    <div class="col-6">
+      <div class="reservationtext-box">
+        <div class="section-title-wrapper">
+          <div class="title-wrap">
+            <h6 class="sub-title">Send Message</h6>
+            <h2 class="section-title">
+              Find Us Here. Make Real
+              <span class="title-suffix"> Results Happen.</span>
+            </h2>
+            <div class="elementor-divider">
+              <span class="stylebody9"></span>
+              <span class="elementor-divider-separator"></span>
+            </div>
+          </div>
+          <!-- .title-wrap -->
+          <div class="section-description">
+            <p class="section-content">
+              There are many variations of passages of orem Ipsum available, but
+              the majority have suffered alteration in some form, by cted
+              ipsumlor sit amet, consectetur adipisicing elit, sed do usmod temp
+              idunt ut labore et dolore magna aliqua ut enim ad minim.
+            </p>
+          </div>
+          <div class="button-div">
+            <button
+              class="button-text"
+              pButton
+              type="button"
+              label="BOOK AN TABLE"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------FORM------------------------------ -->
+    <div class="col-6">
+      <div class="reservationform-fields">
+        <div class="col-12" style="margin-bottom: 12px">
+          <input type="text" pInputText placeholder="Name" class="text-name" />
+        </div>
+        <div style="margin-bottom: 12px">
+          <input
+            type="email"
+            pInputText
+            placeholder="Email"
+            class="text-name phone-number"
+          />
+        </div>
+        <div style="margin-bottom: 12px">
+          <input
+            type="text"
+            pInputText
+            onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"
+            minlength="10"
+            maxlength="10"
+            placeholder="Phone number"
+            class="text-name phone-number"
+          />
+        </div>
+
+        <div>
+          <textarea
+            rows="4"
+            cols="90"
+            pInputTextarea
+            [autoResize]="true"
+            placeholder="Message"
+            class="textArea-text"
+          ></textarea>
+        </div>
+        <div class="button-form">
+          <button pButton type="button" label="SEND NOW"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- --------------------------------------------CONTACT US DIVISION-------------------------------------- -->
+<div class="contact-division">
+  <div class="container marginleft">
+    <div class="contacttext-header" style="position: relative">
+      <h4 style="color: #c49f66">Contact Us</h4>
+      <br />
+      <h1>Get In Touch</h1>
+    </div>
+    <div class="Extrastyling">
+      <span class="beforestyle"></span>
+      <span class="stylebody3"></span>
+      <span class="afterstyle"></span>
+    </div>
+    <div class="d-flex displayflex middlecontactus">
+      <div class="location-map">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              class="gmap_iframe"
+              width="100%"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=600&amp;height=500&amp;hl=en&amp;q=imaginnovate&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------details------- -->
+      <div class="details-map elementor-background-overlay">
+        <!-- <div class="elementor-background-overlay"></div> -->
+        <div class="details-content">
+          <i class="fa fa-headphones icon-details"></i> &nbsp;
+          <a class="details-link" href="tel:+(528) 456-7592">+(528) 456-7592</a>
+        </div>
+        <div class="details-content">
+          <i class="pi pi-map-marker icon-details"></i>
+          &nbsp;
+          <a class="details-link" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+        </div>
+        <div class="details-content last-one">
+          <i class="fa fa-envelope-o icon-details"></i> &nbsp; 684 West College
+          Street, Sun <br />
+          &nbsp; &nbsp; &nbsp; &nbsp; City, America.
+        </div>
+      </div>
+      <!-- --------------------------TIMIMG------------------------- -->
+      <div class="Timings-box">
+        <div class="colorbackground">
+          <div class="first-div">
+            <span class="first-text">Opening Hours</span>
+          </div>
+          <div class="opening-hrs">
+            <span> Sat - Mon</span>
+            <span> 10AM - 8PM</span>
+          </div>
+          <div class="opening-hrs">
+            <span> Tue - Thu</span>
+            <span> 11AM - 7PM</span>
+          </div>
+          <div class="holiday">
+            <span>Friday</span>
+            <span class="offday">Off - Day</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

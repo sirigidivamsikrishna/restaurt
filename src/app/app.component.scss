@@ -1,0 +1,171 @@
+.appComponent {
+  ::ng-deep {
+    .p-menubar {
+      padding: 35px;
+      background: transparent !important;
+      margin: 0px;
+      z-index: 100 !important;
+      position: fixed;
+      width: 100%;
+      border: none;
+      border-radius: 0px;
+      border-bottom: 1px solid rgb(80, 76, 76);
+      // display: flex;
+      // justify-content: center;
+      // margin-left: auto;
+    }
+    .p-element {
+      margin-left: auto !important;
+    }
+    .p-menubar
+      .p-menubar-root-list
+      > .p-menuitem
+      > .p-menuitem-link
+      .p-menuitem-text {
+      color: white;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .p-menubar
+      .p-menubar-root-list
+      > .p-menuitem
+      > .p-menuitem-link
+      .p-menuitem-icon {
+      color: #ffffff;
+      margin-right: 0.5rem;
+      font-size: 25px;
+      font-weight: 600;
+      margin-left: 160px;
+    }
+    .p-menubar
+      .p-menubar-root-list
+      > .p-menuitem
+      > .p-menuitem-link
+      .p-menuitem-icon:hover {
+      color: #c49f66;
+      // :after {
+      //     content: none !important;
+
+      //   }
+    }
+
+    .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:hover {
+      background-color: transparent;
+      .p-menuitem-text {
+        color: #c49f66;
+      }
+      :after {
+        content: "";
+        width: 65px;
+        height: 1px;
+        position: absolute;
+
+        top: 40px;
+        left: 21px;
+        border-bottom: 3px solid;
+        border-image: linear-gradient(to right, #c49f66, rgb(58 123 213 / 0%));
+        border-image-slice: 1;
+      }
+    }
+    .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
+      box-shadow: none;
+      :after {
+        content: "";
+        width: 65px;
+        height: 1px;
+        position: absolute;
+
+        top: 40px;
+        left: 21px;
+        border-bottom: 3px solid;
+        border-image: linear-gradient(to right, #c49f66, rgb(58 123 213 / 0%));
+        border-image-slice: 1;
+      }
+      .p-menuitem-text {
+        color: #c49f66;
+      }
+    }
+  }
+}
+.scrollhide {
+  ::ng-deep {
+    .p-menubar {
+      background: rgb(14, 19, 23) !important;
+      // transition: top 0.3s;
+    }
+  }
+}
+
+::ng-deep {
+  // .p-menubar .p-menubar-root-list {
+  //  border-bottom: none !important;
+  // }
+  .p-menubar .p-submenu-list {
+    background: #151920;
+    color: white;
+  }
+  .p-menubar .p-menuitem-link .p-menuitem-text {
+    color: white;
+  }
+}
+::ng-deep {
+  .p-menubar .p-menubar-button {
+      visibility: hidden;
+    }
+  .p-menubar .p-menubar-button {
+    display: flex;
+    left: 16px;
+    color: white;
+    position: absolute;
+  }
+
+  .p-menubar-start {
+    margin-left: 70px;
+  }
+
+  .pi-bars:before {
+    font-size: 20px;
+  }
+  .p-menubar .p-menubar-root-list .p-menuitem {
+    padding-bottom: 7px;
+    // border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  }
+  .p-menubar .p-menubar-button:hover {
+    border: none !important;
+    background: transparent !important;
+  }
+  .p-menubar .p-menubar-button:focus {
+    box-shadow: none;
+    color: white;
+  }
+  .p-menubar .p-menuitem.p-menuitem-active > .p-menuitem-link {
+    background: none;
+    color: white;
+  }
+  .p-menubar
+    .p-menubar-root-list
+    > .p-menuitem.p-menuitem-active
+    > .p-menuitem-link {
+    background-color: transparent !important;
+  }
+  .p-menubar .p-menuitem-link:not(.p-disabled):hover {
+    background: transparent;
+    color: white;
+  }
+  .p-menubar .p-menuitem-link:focus {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 480px) {
+  ::ng-deep{
+
+  
+.p-menubar.p-menubar-mobile-active .p-menubar-root-list{
+  background-color: #151920;
+}
+.p-menubar .p-menubar-button {
+  visibility: visible;
+}
+  }
+}

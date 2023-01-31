@@ -1,0 +1,119 @@
+<!-- <p-scrollTop></p-scrollTop> -->
+<div class="page-title-wrap-inner" data-property="no-video">
+  <span class="page-title-overlay"></span>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-title-inner">
+          <div class="pull-left">
+            <h1 class="page-title">Reservations Form</h1>
+            <div id="breadcrumb" class="breadcrumb">
+              <a href="#">Home</a>
+              <span class="current">Reservations Form</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- --------------------------------RESERVATION FORM------------------------------------ -->
+<div class="Reservation-form-body">
+  <div class="d-flex reservation-form">
+    <div class="col-6 calnder-box-col">
+      <div class="calender-division">
+        <div class="calender-box">
+          <h2 class="calender-text">Choose a Date</h2>
+          <div class="temp-box">
+            <p-calendar
+              [inline]="true"
+              [minDate]="minDate"
+              [autoZIndex]="true"
+            ></p-calendar>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 form-box-col">
+      <div class="reservationform-fields">
+        <div class="col-12 d-flex inputemail" style="margin-bottom: 12px">
+          <div class="col-6">
+            <input
+              type="text"
+              pInputText
+              placeholder="Name here"
+              class="text-name"
+            />
+          </div>
+          <div class="col-6">
+            <input
+              type="email"
+              pInputText
+              placeholder="Email here"
+              class="text-name"
+            />
+          </div>
+        </div>
+        <div style="margin-bottom: 12px">
+          <input
+            type="text"
+            pInputText
+            minlength="10"
+            maxlength="10"
+            onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"
+            placeholder="Phone number here"
+            class="text-name phone-number"
+          />
+        </div>
+        <div class="col-12 d-flex startendtime" style="margin-bottom: 12px">
+          <div class="col-6">
+            <p-dropdown
+              [options]="starttime"
+              placeholder="Start Time here"
+              class="dropdown-text"
+            ></p-dropdown>
+          </div>
+          <div class="col-6">
+            <p-dropdown
+              [options]="starttime"
+              placeholder="End Time here"
+              class="dropdown-text"
+            ></p-dropdown>
+          </div>
+        </div>
+        <div>
+          <p-dropdown
+            [options]="guests"
+            placeholder="Select number of Guests"
+            class="dropdown-text dropdown-persons"
+          ></p-dropdown>
+        </div>
+        <div>
+          <textarea
+            rows="4"
+            cols="90"
+            pInputTextarea
+            [autoResize]="true"
+            placeholder="Enter Your Message here"
+            class="textArea-text"
+          ></textarea>
+        </div>
+        <div class="button-form">
+          <div class="d-flex buttonsforms">
+            <button
+              pButton
+              type="button"
+              class="buttonbutton"
+              label="BOOK A TABLE"
+            ></button>
+            <br />
+            <a class="linkbutton" href="#">Request Cancellation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -------------------------------------------------------------------------- -->
+
+<app-footer></app-footer>

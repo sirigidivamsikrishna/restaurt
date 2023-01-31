@@ -1,0 +1,602 @@
+// -----------------------------------SCROLL TOP------------------
+::ng-deep {
+  .p-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    background-color: #c49f66 !important;
+    border-radius: 11px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .p-scrolltop .p-scrolltop-icon {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    font-size: 17px;
+    color: #f8f9fa;
+  }
+
+  .p-link:focus {
+    box-shadow: none;
+  }
+}
+.page-title-wrap-inner {
+  color: #ffffff;
+  position: relative;
+  background-image: url(https://elementor.zozothemes.com/restaurt/wp-content/uploads/sites/58/2022/10/page-title-img1-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 240px;
+  padding-bottom: 113px;
+}
+
+.page-title-overlay {
+  background: rgba(0, 0, 0, 0.68);
+}
+
+.container {
+  max-width: 1480px !important;
+}
+
+.page-title-overlay {
+  height: 449px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.page-title-inner {
+  display: table;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.page-title-inner .pull-left {
+  max-width: 50%;
+}
+
+.page-title-inner > div {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  // max-width: 50%;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: Crimson Text;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 64px;
+}
+
+.breadcrumb {
+  text-decoration: none;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block;
+  font-size: 16px;
+  background: unset;
+}
+
+.page-title-inner > div > .breadcrumb > *::after {
+  padding: 3px 3.5px 3.5px;
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+h1.page-title:before {
+  background-image: -webkit-radial-gradient(
+    right,
+    circle,
+    transparent 0,
+    #c59d5f 88%
+  );
+}
+
+h1.page-title:before {
+  content: "";
+  position: absolute;
+  border: 0;
+  width: 85px;
+  height: 4px;
+  z-index: 1;
+  margin-left: 0;
+  left: 0;
+  top: -28px;
+}
+
+.breadcrumb > a {
+  text-decoration: none;
+  color: white;
+}
+
+.breadcrumb > a::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  margin: 0 12px 0 17px;
+  transform: rotate(45deg);
+  background: #c49f66;
+  display: inline-block;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+}
+
+.page-title-inner > div > .breadcrumb > * {
+  word-break: break-all;
+}
+
+.breadcrumb > span.current {
+  color: #fff;
+}
+
+// ---------------------------------------------Second Division---------
+.reservation-form {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #151920;
+  background-image: url(/assets/images/contact-bg.png);
+  background-position: 0px 51px;
+  background-repeat: no-repeat;
+}
+
+// ----------------------------------------SECOND DIVISION TExT-----------------------------
+
+.reservationtext-box {
+  padding: 50px;
+
+  margin-left: 30px;
+}
+.sub-title {
+  color: #c59d5f;
+  margin-bottom: 5px;
+  font-family: "Caveat", Sans-serif;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+.section-title {
+  color: #ffffff;
+  margin-top: 14px;
+  margin-bottom: 0px;
+  font-size: 59px;
+}
+h2 {
+  color: #ffffff;
+  font-family: Crimson Text;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+.elementor-divider {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section-title-wrapper span.elementor-divider-separator:before {
+  content: "";
+  width: 85px;
+  height: 4px;
+  position: absolute;
+  left: 110px;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, #c49f66, rgba(58, 123, 213, 0));
+  border-image-slice: 1;
+}
+.section-description {
+  max-width: none;
+  margin: 0;
+}
+.section-content {
+  margin-bottom: 5px;
+
+  color: #ababab;
+  line-height: 33px;
+  font-size: 19px;
+  padding-right: 55px;
+  text-align: justify;
+}
+.p-button:hover {
+  background-color: #191d24;
+  border-color: transparent;
+}
+.p-button {
+  background-color: transparent;
+
+  border-radius: 0px;
+  border: 1px solid #c49f66;
+}
+::ng-deep {
+  .button-text {
+    margin-top: 38px;
+    width: 205px;
+    height: 63px;
+    font-size: 17px;
+  }
+}
+
+// -------------------FORM FIELDS-----------------------------------------
+.reservationform-fields {
+  background-color: #0e1317;
+  background-image: url(/assets/images/border-srtke-1.png);
+  background-size: cover;
+  padding: 61px;
+  margin-right: 85px;
+
+  border-radius: 4px;
+  background-size: cover;
+}
+
+.p-inputtext:enabled:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none !important;
+  border-color: #c49f66;
+}
+
+.p-inputtext:enabled:hover {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none !important;
+  border-color: #c49f66;
+}
+
+.text-name {
+  margin-bottom: 12px;
+  font-size: 20px;
+  background-color: transparent;
+  width: 100%;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-radius: 0px;
+  padding-left: 0px;
+  padding-bottom: 13px;
+}
+
+.phone-number {
+  width: 100% !important;
+}
+
+.reservationform-fields .p-button {
+  border-radius: 0px;
+  background-color: #c49f66;
+  border-color: transparent;
+}
+
+.reservationform-fields .p-button:hover {
+  background-color: #151920;
+  border-color: transparent;
+}
+
+.reservationform-fields .button-form {
+  margin-top: 30px;
+}
+
+::ng-deep {
+  .p-inputtext {
+    color: #ffffff;
+  }
+
+  .p-inputtextarea-resizable {
+    overflow: hidden;
+    padding-left: 1px;
+    padding-top: 23px;
+    width: 100%;
+    max-height: 144px;
+    background-color: transparent;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    border-radius: 0px;
+    font-size: 20px;
+    resize: none;
+  }
+}
+
+// --------------------------------------CONTACT US DIVISION------------------------------
+.middlecontactus {
+  margin-top: 80px;
+}
+.contact-division {
+  background-color: #0e1317;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .container {
+    max-width: 1400px !important;
+  }
+}
+.contacttext-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.location-map {
+  max-width: 510px;
+  min-width: 510px;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 322px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 322px;
+}
+
+.gmap_iframe {
+  height: 320px !important;
+}
+
+// ---------------------------------------
+.details-map {
+  background-color: #151a20;
+  padding: 41px;
+  padding-left: 52px;
+  max-height: 100%;
+  min-width: 400px;
+}
+.details-content {
+  line-height: 32px;
+  border-color: #2e3033;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 20px 0px;
+  border-bottom: 2px solid #2e3033;
+  // border-width: 0px 0px 1px 0px;
+
+  text-decoration: none;
+  color: #ababab;
+  font-size: 20px;
+}
+.details-link {
+  text-decoration: none;
+  color: #ababab;
+}
+.details-link:hover {
+  color: #c49f66;
+}
+.icon-details {
+  color: #c59d5f;
+  font-size: 22px;
+}
+.icon-details:hover {
+  color: white;
+}
+.last-one {
+  border: none !important;
+  margin-bottom: 0px !important;
+}
+.elementor-background-overlay {
+  background-image: url(/assets/images/mutta-cose.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  opacity: 0.73;
+}
+// -------------------------------------------------------------------
+.Timings-box {
+  margin-left: auto;
+  min-width: 335px;
+  color: white;
+  font-weight: 700;
+  background-image: url(../../../assets/images/service1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.73;
+  max-height: 100%;
+}
+.colorbackground {
+  background-color: #151920c9;
+  padding: 47px;
+  min-width: 368px;
+}
+.first-div {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+.first-text {
+  // font-size: 26px;
+  font-family: Crimson Text;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+}
+.opening-hrs {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #2e3033;
+  border-color: #2e3033;
+}
+.holiday {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #2e3033;
+  border-color: #2e3033;
+}
+.offday {
+  color: #c49f66 !important;
+  font-weight: 400 !important;
+}
+
+// ---------------------------------------MEDIA QUERIES-------------------------------
+@media (max-width: 480px) {
+  .Extrastyling {
+    margin-left: 21% !important;
+  }
+
+  .page-title-wrap-inner {
+    padding-top: 120px;
+    padding-bottom: 62px;
+  }
+  .displayflex {
+    display: block !important;
+  }
+  .location-map {
+    min-width: 100%;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 26px;
+  }
+  .details-map {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    min-width: 100%;
+  }
+  .colorbackground {
+    padding: 42px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .contact-division {
+    padding-top: 60px;
+    padding-bottom: 68px;
+  }
+  .breadcrumb {
+    font-size: 15px;
+  }
+  .page-title-overlay {
+    height: 239px;
+  }
+  .reservation-form {
+    display: block !important;
+    padding-bottom: 54px;
+    padding-top: 40px;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .reservationform-fields {
+    padding: 35px;
+    margin: 12px;
+  }
+  .reservationtext-box {
+    padding: 20px;
+    margin-left: 0px;
+  }
+  .section-content {
+    margin-bottom: 5px;
+    color: #ababab;
+    line-height: 30px;
+    font-size: 17px;
+    padding-right: 15px;
+    text-align: justify;
+  }
+  .section-title {
+    font-size: 30px;
+    line-height: 49px;
+  }
+  .sub-title {
+    color: #c59d5f;
+    margin-bottom: 5px;
+    font-family: "Caveat", Sans-serif;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+  }
+  .button-text {
+    margin-top: 33px;
+    width: 180px;
+    height: 53px;
+    font-size: 17px;
+    font-weight: 400 !important;
+  }
+  .section-title-wrapper span.elementor-divider-separator:before {
+    left: 49px;
+  }
+}
+
+.Extrastyling {
+  margin-left: 37%;
+  position: absolute;
+
+  .stylebody3 {
+    content: "";
+    vertical-align: middle;
+    // text-align: center;
+    font-size: 11px;
+    // display: flex;
+    // justify-content: center;
+    width: 8px;
+    height: 8px;
+    left: 100px;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all 250ms ease-in-out 0s;
+    background: #ffc56ccf;
+    display: inline-block;
+    // margin-left: 50%;
+    position: absolute;
+  }
+
+  .afterstyle {
+    content: "";
+    width: 90px;
+    height: 1px;
+    position: absolute;
+    // left: 51%;
+    left: 125px;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to right, #c49f66, rgb(58 123 213 / 0%));
+    border-image-slice: 1;
+  }
+
+  .beforestyle {
+    content: "";
+    width: 90px;
+    height: 1px;
+    position: absolute;
+    left: 0px;
+    // right: 51%;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to left, #c49f66, rgb(58 123 213 / 0%));
+    border-image-slice: 1;
+  }
+}
+.stylebody9 {
+  content: "";
+  vertical-align: middle;
+  // text-align: center;
+  font-size: 11px;
+  // display: flex;
+  // justify-content: center;
+  width: 8px;
+  height: 8px;
+
+  transform: rotate(45deg) translateY(-50%);
+  transition: all 250ms ease-in-out 0s;
+  background: #ffc56ccf;
+  display: inline-block;
+  // margin-left: 50%;
+  position: absolute;
+}
